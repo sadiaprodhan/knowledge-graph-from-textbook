@@ -14,6 +14,6 @@ This will also show the visual representation of the knowledge graph.
 ### Question and Answering
 The question and answering code is in llm_integration.ipynb which is done in google colab.
 We used GPT-4 an LLM for generating cypher to query Neo4j Database.
-An openAI API key is required and could be generarted here after opening an account- https://platform.openai.com/playground
-You have to uncomment the code and put your api key value in the openai_api_key variable 
-and run the code.
+An openAI API key is required and could be generarted here after opening an account here: https://platform.openai.com/playground.
+You have to uncomment and put your api key value in the openai_api_key variable.
+To execute the code in Google Colab just click on Run All.
