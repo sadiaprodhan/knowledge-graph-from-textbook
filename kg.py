@@ -62,8 +62,8 @@ def get_relation(sent):
     return span.text
 def connect_database():
    driver = GraphDatabase.driver(
-    "neo4j+s://b069e602.databases.neo4j.io",
-    auth=("neo4j", "I_0cs4pZSOyfY2LbVjTWqFV0BvJCkc45HdhwZMHBHqI"))
+    "neo4j+s://b68740ea.databases.neo4j.io",
+    auth=("neo4j", "_lJbg6-mIWPdVXmtjTrAgcmBJFq7iHRJ8iHRBRDuDDc"))
    print(driver)
    return driver
 
